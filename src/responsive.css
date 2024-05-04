@@ -2595,9 +2595,9 @@
         max-width: 1170px;
     }
 
-    .header-area .logo img {
+    /* .header-area .logo img {
         max-width: 125px;
-    }
+    } */
 
     .header-area .header-left {
         gap: 63px;

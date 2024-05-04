@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../assets/logo.svg'
 import iphone from '../assets/iphone-13-1.jpg'
 import portfolio1 from '../assets/portfolio-mega-menu-1.jpg'
 import portfolio2 from '../assets/portfolio-mega-menu-2.jpg'
@@ -73,7 +72,7 @@ const Navbar = () => {
                                         </ul>
                                     </li>
                                     <li className="mega-menu-item">
-                                        <a href="company.html">Company</a>
+                                        <a href="/">Company</a>
                                         <span className="dropdown-menu-item-icon">
                                             <i class="las la-angle-down"></i>
                                         </span>
@@ -85,12 +84,12 @@ const Navbar = () => {
                                                             <div className="mega-menu-link">
                                                                 <h3>Get Started</h3>
                                                                 <ul>
-                                                                    <li><a href="#">Setup 101</a></li>
-                                                                    <li><a href="#">Adding users</a></li>
-                                                                    <li><a href="#">Video tutorials</a></li>
-                                                                    <li><a href="#">Libraries and SDKs</a></li>
-                                                                    <li><a href="#">Plugins</a></li>
-                                                                    <li><a href="#">Templates</a></li>
+                                                                    <li><a href="/">Setup 101</a></li>
+                                                                    <li><a href="/">Adding users</a></li>
+                                                                    <li><a href="/">Video tutorials</a></li>
+                                                                    <li><a href="/">Libraries and SDKs</a></li>
+                                                                    <li><a href="/">Plugins</a></li>
+                                                                    <li><a href="/">Templates</a></li>
                                                                 </ul>
                                                             </div>
 
@@ -99,33 +98,33 @@ const Navbar = () => {
                                                                     <h3>Company</h3>
                                                                     <ul>
                                                                         <li><a href="About">About Us</a></li>
-                                                                        <li><a href="partner.html">Partners</a></li>
+                                                                        <li><a href="/">Partners</a></li>
                                                                         <li><a href="Career">Careers</a></li>
-                                                                        <li><a href="event.html">Events</a></li>
-                                                                        <li><a href="team.html">Team</a></li>
-                                                                        <li><a href="blog.html">Blog</a></li>
+                                                                        <li><a href="/">Events</a></li>
+                                                                        <li><a href="/">Team</a></li>
+                                                                        <li><a href="/">Blog</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <div className="mega-menu-link">
                                                                     <h3>Product</h3>
                                                                     <ul>
-                                                                        <li><a href="overview.html">Overview</a></li>
-                                                                        <li><a href="pricing.html">Pricing</a></li>
-                                                                        <li><a href="feature.html">Features</a></li>
-                                                                        <li><a href="case-studie.html">Case Studies</a></li>
-                                                                        <li><a href="new-release.html">New Releases</a></li>
-                                                                        <li><a href="solution.html">Solutions</a></li>
+                                                                        <li><a href="/">Overview</a></li>
+                                                                        <li><a href="/">Pricing</a></li>
+                                                                        <li><a href="/">Features</a></li>
+                                                                        <li><a href="/">Case Studies</a></li>
+                                                                        <li><a href="/">New Releases</a></li>
+                                                                        <li><a href="/">Solutions</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <div className="mega-menu-link">
                                                                     <h3>Legal</h3>
                                                                     <ul>
-                                                                        <li><a href="#">Licenses</a></li>
-                                                                        <li><a href="#">Settings</a></li>
-                                                                        <li><a href="#">Cookies</a></li>
-                                                                        <li><a href="#">Document</a></li>
-                                                                        <li><a href="#">Terms</a></li>
-                                                                        <li><a href="#">Privacy</a></li>
+                                                                        <li><a href="/">Licenses</a></li>
+                                                                        <li><a href="/">Settings</a></li>
+                                                                        <li><a href="/">Cookies</a></li>
+                                                                        <li><a href="/">Document</a></li>
+                                                                        <li><a href="/">Terms</a></li>
+                                                                        <li><a href="/">Privacy</a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -148,7 +147,7 @@ const Navbar = () => {
                                                             <img src={iphone} alt="Iphone" />
                                                             <h2>Solution in your hand</h2>
                                                             <p>Develop IT solutions based on the analysis phase.</p>
-                                                            <a href="case-studie-single.html">View more</a>
+                                                            <a href="/">View more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -156,7 +155,7 @@ const Navbar = () => {
                                         </div>
                                     </li>
                                     <li className="mega-menu-item">
-                                        <a href="portfolio.html">Portfolio</a>
+                                        <a href="/">Portfolio</a>
                                         <span className="dropdown-menu-item-icon">
                                             <i className="las la-angle-down"></i>
                                         </span>
@@ -172,7 +171,7 @@ const Navbar = () => {
                                                                         alt="Portfolio" />
                                                                 </div>
                                                                 <div className="content-box">
-                                                                    <h3><a href="portfolio-details.html">E-commerce</a></h3>
+                                                                    <h3><a href="/">E-commerce</a></h3>
                                                                     <p>we undertook a project to migrate their existing.
                                                                     </p>
                                                                 </div>
@@ -183,7 +182,7 @@ const Navbar = () => {
                                                                         alt="Portfolio" />
                                                                 </div>
                                                                 <div className="content-box">
-                                                                    <h3><a href="portfolio-details.html">App Development</a></h3>
+                                                                    <h3><a href="/">App Development</a></h3>
                                                                     <p>The mobile application has significantly
                                                                         improved.</p>
                                                                 </div>
@@ -194,7 +193,7 @@ const Navbar = () => {
                                                                         alt="Portfolio" />
                                                                 </div>
                                                                 <div className="content-box">
-                                                                    <h3><a href="portfolio-details.html">SAAS Integration</a></h3>
+                                                                    <h3><a href="/">SAAS Integration</a></h3>
                                                                     <p>We partnered with DEF to upgrade their outdated
                                                                         IT.</p>
                                                                 </div>
@@ -205,7 +204,7 @@ const Navbar = () => {
                                                                         alt="Portfolio" />
                                                                 </div>
                                                                 <div className="content-box">
-                                                                    <h3><a href="portfolio-details.html">Virtual Reality</a></h3>
+                                                                    <h3><a href="/">Virtual Reality</a></h3>
                                                                     <p>Enter into the virtual reality
                                                                         world for real experience.</p>
                                                                 </div>
@@ -222,7 +221,7 @@ const Navbar = () => {
                                                             </ul>
 
                                                             <p>
-                                                                <a href="portfolio.html">View Portfolio <i
+                                                                <a href="/">View Portfolio <i
                                                                     class="iconoir-arrow-up-right"></i></a>
                                                             </p>
                                                         </div>
@@ -233,7 +232,7 @@ const Navbar = () => {
                                                             <h2>Mobile app for a new era</h2>
                                                             <p>Download slack in your mobile for
                                                                 your daily usage.</p>
-                                                            <a href="case-studie-single.html">View more</a>
+                                                            <a href="/">View more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -258,7 +257,7 @@ const Navbar = () => {
                                                                             alt="Service" />
                                                                     </span>
                                                                     <div className="content">
-                                                                        <h2><a href="how-we-do-single.html">Brainstroming</a></h2>
+                                                                        <h2><a href="/">Brainstroming</a></h2>
                                                                         <p>Ideas</p>
                                                                     </div>
                                                                 </div>
@@ -268,7 +267,7 @@ const Navbar = () => {
                                                                             alt="Service" />
                                                                     </span>
                                                                     <div className="content">
-                                                                        <h2><a href="how-we-do-single.html">Product</a></h2>
+                                                                        <h2><a href="/">Product</a></h2>
                                                                         <p>Design</p>
                                                                     </div>
                                                                 </div>
@@ -278,7 +277,7 @@ const Navbar = () => {
                                                                             alt="Service" />
                                                                     </span>
                                                                     <div className="content">
-                                                                        <h2><a href="how-we-do-single.html">SEO</a></h2>
+                                                                        <h2><a href="/">SEO</a></h2>
                                                                         <p>Optimization</p>
                                                                     </div>
                                                                 </div>
@@ -288,7 +287,7 @@ const Navbar = () => {
                                                                             alt="Service" />
                                                                     </span>
                                                                     <div className="content">
-                                                                        <h2><a href="how-we-do-single.html">Front-End</a></h2>
+                                                                        <h2><a href="/">Front-End</a></h2>
                                                                         <p>Development</p>
                                                                     </div>
                                                                 </div>
@@ -298,23 +297,23 @@ const Navbar = () => {
                                                                 <div className="mega-menu-link">
                                                                     <h3>Services</h3>
                                                                     <ul>
-                                                                        <li><a href="service-details.html">Development</a></li>
-                                                                        <li><a href="service-details.html">Web Design</a></li>
-                                                                        <li><a href="service-details.html">IT Support</a></li>
-                                                                        <li><a href="service-details.html">E-Commerce</a></li>
-                                                                        <li><a href="service-details.html">Cloud Things</a></li>
-                                                                        <li><a href="service-details.html">CRM Solutions</a></li>
+                                                                        <li><a href="/">Development</a></li>
+                                                                        <li><a href="/">Web Design</a></li>
+                                                                        <li><a href="/">IT Support</a></li>
+                                                                        <li><a href="/">E-Commerce</a></li>
+                                                                        <li><a href="/">Cloud Things</a></li>
+                                                                        <li><a href="/">CRM Solutions</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <div className="mega-menu-link">
                                                                     <h3>Our Fields</h3>
                                                                     <ul>
-                                                                        <li><a href="our-field-details.html">Healthcare</a></li>
-                                                                        <li><a href="our-field-details.html">Banks</a></li>
-                                                                        <li><a href="our-field-details.html">Logistics</a></li>
-                                                                        <li><a href="our-field-details.html">Supermarkets</a></li>
-                                                                        <li><a href="our-field-details.html">Industries</a></li>
-                                                                        <li><a href="our-field-details.html">Hotels</a></li>
+                                                                        <li><a href="/">Healthcare</a></li>
+                                                                        <li><a href="/">Banks</a></li>
+                                                                        <li><a href="/">Logistics</a></li>
+                                                                        <li><a href="/">Supermarkets</a></li>
+                                                                        <li><a href="/">Industries</a></li>
+                                                                        <li><a href="/">Hotels</a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -337,7 +336,7 @@ const Navbar = () => {
                                                             <img src={ipad} alt="iPad" />
                                                             <h2>Our product hits</h2>
                                                             <p>Our new best IT product of the year 2021.</p>
-                                                            <a href="case-studie-single.html">View more</a>
+                                                            <a href="/">View more</a>
                                                         </div>
                                                     </div>
                                                 </div>

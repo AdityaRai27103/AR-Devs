@@ -1,5 +1,5 @@
 import React from 'react'
-import emporment from "../assets/bg1-1.png";
+import group from '../assets/bg1-2.webp'
 import empowerment2 from "../assets/bg1.png";
 import icon1 from "../assets/icon1.svg";
 import icon2 from "../assets/icon2.svg";
@@ -23,7 +23,7 @@ export default function Mainbanner() {
               forward in the digital landscape.
             </p>
             <div className="btns-group d-flex">
-              <a href="#" className="theme-btn">
+              <a href="/" className="theme-btn">
                 Learn More
               </a>
               <a href="contact.html" className="theme-btn2">
@@ -37,7 +37,7 @@ export default function Mainbanner() {
             <div className="top-content">
               <img
                 className="desktop fade-in"
-                src={emporment}
+                src={group}
                 alt="Empowerment"
               />
               <img className="mobile" src={empowerment2} alt="Empowerment" />

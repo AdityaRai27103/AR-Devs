@@ -4,8 +4,8 @@ import footer_icon1 from '../assets/youtube.svg';
 import footer_icon2 from '../assets/webflow.svg';
 import footer_icon3 from '../assets/upwork.svg';
 import footer_icon4 from '../assets/shopify.svg';
-import mainlogo from '../assets/MainLogo2.jpg'
 import bgshape4 from '../assets/bg-shape-4.svg'
+// import footerlogo from '../assets/mainlogo4.png'
 
 
 export default function Footer() {
