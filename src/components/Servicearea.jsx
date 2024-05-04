@@ -47,7 +47,7 @@ export default function Servicearea() {
                     </div>
                     <div className="service-card simple-shadow">
                         <img src={icon6} alt="Service Icon" className="service-icon" />
-                        <h3><a href="#">Hardware Services</a></h3>
+                        <h3><a href="#">Digital Marketing</a></h3>
                         <p>We offers expert assistance
                             for your IT issues.</p>
                     </div>
@@ -70,7 +70,7 @@ export default function Servicearea() {
                     </div>
                     <div className="service-card simple-shadow">
                         <img src={icon9} alt="Service Icon" className="service-icon" />
-                        <h3><a href="#">Email Services</a></h3>
+                        <h3><a href="#">Influencing Marketing</a></h3>
                         <p>We create vibrant, intuitive
                             and minimalist web</p>
                     </div>

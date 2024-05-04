@@ -115,7 +115,7 @@ export default function Countact() {
                 <li>
                   <a href="https://www.youtube.com/channel/UCFHyvOqurXKr-t0FLMdHVIQ">
                     {/*?xml version="1.0" encoding="UTF-8"?*/}<i className="iconoir-youtube" />
-                    Dribbble
+                    Youtube
                   </a>
                 </li>
                 <li>
