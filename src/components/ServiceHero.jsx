@@ -1,5 +1,5 @@
 import React from 'react'
-import group1 from '../assets/group1.webp'
+import group1 from '../assets/hero-service-about.jpg'
 
 const ServiceHero = () => {
     return (

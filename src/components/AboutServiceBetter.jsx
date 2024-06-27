@@ -1,10 +1,9 @@
 import React from 'react'
-import group from '../assets/about-service-2.png'
+import group from '../assets/about-service-3.png'
 
-const ServiceBetter = () => {
-    return (
-        <div>
-            <section className="about-service3-area">
+const AboutServiceBetter = () => {
+  return (
+    <section className="about-service3-area">
                 <div className="custom-container">
                     <div className="custom-row align-items-center">
                         <div className="img-box">
@@ -28,8 +27,7 @@ const ServiceBetter = () => {
                     </div>
                 </div>
             </section>
-        </div>
-    )
+  )
 }
 
-export default ServiceBetter
+export default AboutServiceBetter

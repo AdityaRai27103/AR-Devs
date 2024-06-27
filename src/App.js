@@ -15,11 +15,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='Contact' element={<Contact />} />
-          <Route path='About' element={<About />} />
-          <Route path='Service' element={<Service />} />
-          <Route path='Faq' element={<Faq />} />
-          <Route path='Career' element={<Career />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Service' element={<Service />} />
+          <Route path='/Faq' element={<Faq />} />
+          <Route path='/Career' element={<Career />} />
           <Route path='*' element={<NoPage />} />
         </Routes>
       </BrowserRouter>

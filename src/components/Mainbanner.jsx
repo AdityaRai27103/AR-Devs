@@ -1,5 +1,4 @@
 import React from 'react'
-import group from '../assets/bg1-2.webp'
 import empowerment2 from "../assets/bg1.png";
 import icon1 from "../assets/icon1.svg";
 import icon2 from "../assets/icon2.svg";
@@ -23,10 +22,10 @@ export default function Mainbanner() {
               forward in the digital landscape.
             </p>
             <div className="btns-group d-flex">
-              <a href="/" className="theme-btn">
+              <a href="/About" className="theme-btn">
                 Learn More
               </a>
-              <a href="contact.html" className="theme-btn2">
+              <a href="/Contact" className="theme-btn2">
                 Let's Talk
                 <i className="iconoir-arrow-up-right"></i>
               </a>
@@ -37,7 +36,7 @@ export default function Mainbanner() {
             <div className="top-content">
               <img
                 className="desktop fade-in"
-                src={group}
+                src={empowerment2}
                 alt="Empowerment"
               />
               <img className="mobile" src={empowerment2} alt="Empowerment" />

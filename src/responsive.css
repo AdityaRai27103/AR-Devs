@@ -106,8 +106,8 @@
     }
 
     .hero-section-wrap .hero-section-content-wrap {
-        padding-top: 236px;
-        padding-bottom: 70px;
+        /* padding-top: 236px; */
+        /* padding-bottom: 70px; */
     }
 
     /* .hero-section-wrap .hero-section-content-wrap .bg-shape {
@@ -115,7 +115,7 @@
     } */
     .hero-service-wrap .hero-section-content-wrap {
         padding-top: 100px;
-        padding-bottom: 160px;
+        /* padding-bottom: 160px; */
     }
 
     .hero-section-wrap .hero-contact-form-wrap {

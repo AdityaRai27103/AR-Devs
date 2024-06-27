@@ -1,13 +1,19 @@
-import { Navbar } from "../components";
+import { AboutCTA, AboutOurServices, AboutOurTeam, AboutServiceArea, AboutServiceBetter, AboutUSAbout, Countact, Footer, Navbar, Sliders } from "../components";
 
 
 export default function About() {
     return (
         <div>
             <Navbar />
-            <h1>
-                about page
-            </h1>
+            <AboutUSAbout/>
+            <Sliders/>
+            <AboutOurServices/>
+            <AboutServiceArea/>
+            <AboutOurTeam/>
+            <AboutServiceBetter/>
+            <AboutCTA/>
+            <Countact/>
+            <Footer/>
         </div>
     )
 } 

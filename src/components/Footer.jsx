@@ -137,16 +137,15 @@ export default function Footer() {
               <div className="footer-contact-info-item">
                 <h4>Phone</h4>
                 <p>
-                  <a href="tel:+91-978-462-6443">+91-978-462-6443</a> <br />
-                  <a href="tel:+91-636-702-3010">+91-636-702-3010
-                  </a>
+                  <a href="tel:+91-9981319158">+91-9981319158</a> <br />
+                  {/* <a href="tel:+91-9981319158">+91-9981319158</a> */}
                 </p>
               </div>
               <div className="footer-contact-info-item">
                 <h4>Mail</h4>
                 <p>
-                  <a href="mailto:info@ooglesoft.com">info@ooglesoft.com</a> <br />
-                  <a href="mailto:sales@ooglesoft.com">sales@ooglesoft.com</a>
+                  <a href="mailto:adityarai27103@gmail.com">adityarai27103@gmail.com</a> <br />
+                  {/* <a href="mailto:2021csaditya9292@poornima.edu.in">2021csaditya9292@poornima.edu.in</a> */}
                 </p>
               </div>
             </div>
@@ -157,12 +156,12 @@ export default function Footer() {
         <div className="custom-container">
           <div className="custom-row d-flex align-items-center justify-content-between">
             <ul className="social-links d-flex align-items-center">
-              <li><a href="https://www.youtube.com/channel/UCFHyvOqurXKr-t0FLMdHVIQ"><i class="iconoir-youtube"></i></a></li>
-              <li><a href="https://twitter.com/OogleSoft"><i class="iconoir-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/ooglesoft/?hl=en"><i class="iconoir-instagram"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/ooglesoft-oogel-574382274/"><i class="iconoir-linkedin"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/aditya-rai-556227220"><i class="iconoir-youtube"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/aditya-rai-556227220"><i class="iconoir-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/aditya-rai-556227220"><i class="iconoir-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/aditya-rai-556227220"><i class="iconoir-linkedin"></i></a></li>
             </ul>
-            <p>© 2024 All rights reserved by <a href="#">Ooglesoft</a></p>
+            <p>© 2024 All rights reserved by <a href="#">Aditya Rai</a></p>
           </div>
         </div>
       </div>

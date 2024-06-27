@@ -12,7 +12,7 @@ export default function Countact() {
             <div className="contact-form-body">
               <h5 className="section-subtitle">Contact</h5>
               <h1 className="section-title">Lets get in touch</h1>
-              <p>You can reach us anytime via <a href="mailto:info@ooglesoft.com">info@ooglesoft.com</a></p>
+              <p>You can reach us anytime via <a href="mailto:adityarai27103@gmail.com">adityarai27103@gmail.com</a></p>
               <form action="#" method="POST" className="contact-form">
                 <div className="input-row">
                   <div className="input-group">
@@ -100,38 +100,38 @@ export default function Countact() {
                 <img src={supporticon} alt="Support" />
                 <h3>Contact Info</h3>
                 <p>
-                  +91 978-462-6443 <br />
-                  info@ooglesoft.com
+                  +91 9981319158<br />
+                  adityarai27103@gmail.com
                 </p>
               </div>
               <div className="contact-office-info contact-info">
                 <img src={mapicon} alt="Map" />
                 <h3>Visit our office</h3>
-                <p>52/210, Padmani VT Rd,<br />
-                  Ward 27, Mansarovar Sector 5,<br />
-                  Mansarovar, Jaipur, Rajasthan, 302020</p>
+                <p>Officers Colony,<br />
+                  NKJ, Katni,<br />
+                  Katni, Madhya Pradesh, 483501</p>
               </div>
               <ul className="contact-social-links">
                 <li>
-                  <a href="https://www.youtube.com/channel/UCFHyvOqurXKr-t0FLMdHVIQ">
+                  <a href="/">
                     {/*?xml version="1.0" encoding="UTF-8"?*/}<i className="iconoir-youtube" />
                     Youtube
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/OogleSoft">
+                  <a href="/">
                     {/*?xml version="1.0" encoding="UTF-8"?*/}<i className="iconoir-twitter" />
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/ooglesoft/?hl=en">
+                  <a href="/">
                     {/*?xml version="1.0" encoding="UTF-8"?*/}<i className="iconoir-instagram" />
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/ooglesoft-oogel-574382274/">
+                  <a href="/">
                     {/*?xml version="1.0" encoding="UTF-8"?*/}<i className="iconoir-linkedin" />
                     linkedin
                   </a>
@@ -142,8 +142,5 @@ export default function Countact() {
         </div>
       </div>
     </section>
-
-
-
   )
 }

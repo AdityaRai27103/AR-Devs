@@ -9,7 +9,8 @@ import hwdicon1 from '../assets/hwd-icon-1.svg'
 import hwdicon2 from '../assets/hwd-icon-2.svg'
 import hwdicon3 from '../assets/hwd-icon-3.svg'
 import hwdicon4 from '../assets/hwd-icon-4.svg'
-import mainlogo2 from '../assets/MainLogo2.jpg'
+// import mainlogo2 from '../assets/MainLogo2.jpg'
+import logo from '../assets/logo.svg'
 
 
 
@@ -29,7 +30,7 @@ const Navbar = () => {
                         </div>
                         <div className="right">
                             <p>
-                                Level up your business with <a href="Contact" data-word="OOGLESOFT." id="dataWord">OOGLESOFT.</a>
+                                Level up your business with <a href="/Contact" data-word="AR DEVS." id="dataWord">AR DEVS.</a>
                             </p>
                         </div>
                     </div>
@@ -43,11 +44,11 @@ const Navbar = () => {
                     <div className="custom-row align-items-center justify-content-between">
                         <div className="header-left d-flex align-items-center">
                             <a href="/" class="logo">
-                                <img src={mainlogo2} alt="Logo" />
+                                <img src={logo} alt="Logo" />
                             </a>
 
                             <div className="header-left-right">
-                                <a href="Contact" className="theme-btn">Contact Us</a>
+                                <a href="/Contact" className="theme-btn">Contact Us</a>
                                 <span className="menu-bar">
                                     <i class="las la-bars"></i>
                                 </span>
@@ -97,9 +98,9 @@ const Navbar = () => {
                                                                 <div className="mega-menu-link">
                                                                     <h3>Company</h3>
                                                                     <ul>
-                                                                        <li><a href="About">About Us</a></li>
+                                                                        <li><a href="/About">About Us</a></li>
                                                                         <li><a href="/">Partners</a></li>
-                                                                        <li><a href="Career">Careers</a></li>
+                                                                        <li><a href="/Career">Careers</a></li>
                                                                         <li><a href="/">Events</a></li>
                                                                         <li><a href="/">Team</a></li>
                                                                         <li><a href="/">Blog</a></li>
@@ -133,13 +134,13 @@ const Navbar = () => {
                                                         <div
                                                             className="mega-meu-footer d-flex align-items-center justify-content-between w-full">
                                                             <ul className="mega-menu-social d-flex align-items-center">
-                                                                <li><a href="https://www.youtube.com/channel/UCFHyvOqurXKr-t0FLMdHVIQ"><i class="iconoir-youtube"></i></a></li>
-                                                                <li><a href="https://twitter.com/OogleSoft"><i class="iconoir-twitter"></i></a></li>
-                                                                <li><a href="https://www.instagram.com/ooglesoft/?hl=en"><i class="iconoir-instagram"></i></a></li>
-                                                                <li><a href="https://www.linkedin.com/in/ooglesoft-oogel-574382274/"><i class="iconoir-linkedin"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-youtube"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-twitter"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-instagram"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-linkedin"></i></a></li>
                                                             </ul>
 
-                                                            <p>Looking for new career? <a href="Career">We're hiring</a></p>
+                                                            <p>Looking for new career? <a href="/Career">We're hiring</a></p>
                                                         </div>
                                                     </div>
                                                     <div className="right">
@@ -214,10 +215,10 @@ const Navbar = () => {
                                                         <div
                                                             className="mega-meu-footer d-flex align-items-center justify-content-between w-full">
                                                             <ul className="mega-menu-social d-flex align-items-center">
-                                                                <li><a href="https://www.youtube.com/channel/UCFHyvOqurXKr-t0FLMdHVIQ"><i class="iconoir-youtube"></i></a></li>
-                                                                <li><a href="https://twitter.com/OogleSoft"><i class="iconoir-twitter"></i></a></li>
-                                                                <li><a href="https://www.instagram.com/ooglesoft/?hl=en"><i class="iconoir-instagram"></i></a></li>
-                                                                <li><a href="https://www.linkedin.com/in/ooglesoft-oogel-574382274/"><i class="iconoir-linkedin"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-youtube"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-twitter"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-instagram"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-linkedin"></i></a></li>
                                                             </ul>
 
                                                             <p>
@@ -240,7 +241,7 @@ const Navbar = () => {
                                         </div>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="Service">Services</a>
+                                        <a href="/Service">Services</a>
                                         <span className="dropdown-menu-item-icon">
                                             <i class="las la-angle-down"></i>
                                         </span>
@@ -322,13 +323,13 @@ const Navbar = () => {
                                                         <div
                                                             className="mega-meu-footer d-flex align-items-center justify-content-between w-full">
                                                             <ul className="mega-menu-social d-flex align-items-center">
-                                                                <li><a href="https://www.youtube.com/channel/UCFHyvOqurXKr-t0FLMdHVIQ"><i class="iconoir-youtube"></i></a></li>
-                                                                <li><a href="https://twitter.com/OogleSoft"><i class="iconoir-twitter"></i></a></li>
-                                                                <li><a href="https://www.instagram.com/ooglesoft/?hl=en"><i class="iconoir-instagram"></i></a></li>
-                                                                <li><a href="https://www.linkedin.com/in/ooglesoft-oogel-574382274/"><i class="iconoir-linkedin"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-youtube"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-twitter"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-instagram"></i></a></li>
+                                                                <li><a href="/"><i class="iconoir-linkedin"></i></a></li>
                                                             </ul>
 
-                                                            <p>Looking for new career? <a href="Career">We're hiring</a></p>
+                                                            <p>Looking for new career? <a href="/Career">We're hiring</a></p>
                                                         </div>
                                                     </div>
                                                     <div className="right">
@@ -344,7 +345,7 @@ const Navbar = () => {
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="Faq">FAQ</a>
+                                        <a href="/Faq">FAQ</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -352,13 +353,13 @@ const Navbar = () => {
                         <div className="header-right">
                             <div className="header-contact-info d-flex align-items-center">
                                 <div className="phone-number">
-                                    <a href="tel:+919784626443">
+                                    <a href="tel:+919981319158">
                                         Call Us
                                         <i class="iconoir-arrow-up-right"></i>
                                     </a>
-                                    +919784626443
+                                    +919981319158
                                 </div>
-                                <a href="Contact" className="theme-btn">Contact Us</a>
+                                <a href="/Contact" className="theme-btn">Contact Us</a>
                             </div>
                         </div>
                     </div>
