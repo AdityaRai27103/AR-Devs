@@ -14,6 +14,7 @@ export default function About() {
             <AboutCTA/>
             <Countact/>
             <Footer/>
+            <h1>hello</h1>
         </div>
     )
 } 
